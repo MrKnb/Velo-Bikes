@@ -1,3 +1,348 @@
+/*General Tag Styling*/
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    height: 100vh;
+}
+
 header {
-    background: url("assets/Layer\ 7.png");
+    background: url("assets/Layer\ 7.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px; ;
+ }
+
+
+a {
+    color: rgb(12, 12, 12);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h2 {
+    color: rgb(117, 115, 115);
+}
+
+p {
+    color: rgb(117, 115, 115);
+}
+/*Class Styling*/
+
+/*This has to be revisited to change the text positioning
+according to screen size*/
+.top-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/*Remember to use the same background-color for flex2*/
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 140px;
+    padding-left: 270px;
+    padding-right: 240px;
+    background-color: rgb(241, 241, 241);
+}
+
+.oliva{
+    display: flex; 
+    height: 500px; 
+    width:100%;
+}
+
+.img-wrapper{
+    margin-top: 15%;
+}
+
+.image-sattel{
+    width:100%; 
+}
+
+
+.grid2-image{
+    justify-self: end;
+    height: 10%;
+}
+
+.bike-logo{
+    margin-left: 45%;
+    margin-top: 180px;   
+}
+
+.grid1 {
+    background: url("assets/Layer\ 10.png") no-repeat;
+    background-size: cover;
+    width: 66%; 
+} 
+
+
+.grid2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 34%; 
+
+}
+
+.grid2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divider {}
+
+
+.box{
+    display: flex;
+    height: 600px; 
+}
+
+.grid3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    width: 30%; 
+
+}
+
+.grid3-text {
+
+}
+
+.grid3-image {
+    height: 20%;
+}
+
+.grid4 {
+    background: url("assets/Layer\ 12.png") no-repeat;
+    background-size: cover;
+    width: 66%; 
+}
+
+.vintage-logo {
+    margin-top: 40%;
+}
+
+.grid5 {
+    background: url("assets/Layer\ 15.png") no-repeat;
+    background-size: cover;
+    width: 34%; 
+}
+
+/*Margin-left anpassen*/
+
+.logo4{
+    margin-top: 200px; 
+    margin-left: 30%; 
+}
+
+.grid6 {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.grid6-text {}
+
+.grid6-image {
+    width: 100%;
+    margin-bottom: -1%; 
+    align-self: flex-end;
+}
+
+.image6{
+    width: 100%;
+}
+
+
+.grid7 {
+    background: url("assets/Layer\ 14.png") no-repeat;
+    background-size: cover;
+    width: 34%; 
+}
+
+.container-bottom {
+    display: flex; 
+    flex-direction: row;
+    height:600px; 
+}
+
+.middle-box{
+    display:flex; 
+    width: 33.4%;
+}
+
+.left-box {
+    display:flex; 
+    flex-direction: column; 
+    width: 33%.3;
+}
+
+.right-box{
+    display:flex; 
+    flex-direction: column; 
+    width: 33.3%;
+}
+
+.top-left{
+    display:flex; 
+    height: 50%; 
+}
+
+.bottom-right{
+    display:flex; 
+    height: 50%; 
+}
+
+.shop-now {
+    background: url(assets/Layer\ 23.png) no-repeat;
+    background-size: cover;
+    height: 50%; 
+}
+.shop-now-wrapper{
+    margin-top: 30%;
+    margin-left: 45%; 
+    display: flex; 
+    flex-direction: column; 
+    width: 70px; 
+}
+
+.row-image-wrapper{
+height: 50%; 
+}
+
+.small-image{
+    height: 100%; 
+}
+
+.row-image{
+    height: 100%; 
+}
+
+.column-image{
+    height: 100%; 
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 140px;
+    padding-left: 270px;
+    padding-right: 240px;
+    background-color: rgb(241, 241, 241);
+}
+
+.flex2 span {
+    color: rgb(224, 223, 223)
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.dot_filled {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border-style: solid;
+    color: rgb(117, 115, 115);
+    background-color: rgb(117, 115, 115);
+    margin-right: 8px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border-style: solid;
+    color: rgb(117, 115, 115);
+    margin-right: 8px;
+}
+
+.grid-container2 {}
+
+.grid_1 {}
+
+.grid_2 {}
+
+.grid_3 {}
+
+.grid_4 {}
+
+.grid_5 {}
+
+.grid_5 p {
+    color: white;
+}
+span {
+    color: white;
+    display: inline; 
+    font-size: 10px; 
+    text-align: center; 
+}
+.grid_6 {}
+
+.grid_7 {}
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.CTA {
+    color: white;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    padding: 15px 50px;
+} 
+
+.flex4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+/*     padding-top: 115px;
+    padding-bottom: 140px;
+    padding-left: 270px;
+    padding-right: 240px; */
+    background-color: rgb(241, 241, 241);
+}
+
+.flex-newsletter {
+    flex-direction: row;
+}
+
+.flex-newsletter input {
+    color: rgb(224, 223, 223);
+    border-style: solid;
+    border-color: rgb(224, 223, 223);
+    background-color: rgb(241, 241, 241);
 }
