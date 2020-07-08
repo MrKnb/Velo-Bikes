@@ -29,8 +29,7 @@ p {
 }
 /*Class Styling*/
 
-/*This has to be revisited to change the text positioning
-according to screen size*/
+
 .top-navigation {
     display: flex;
     justify-content: space-around;
@@ -96,7 +95,7 @@ according to screen size*/
     width: 34%; 
 
 }
-
+ 
 .grid2-text{
     display: flex;
     flex-direction: column;
@@ -120,9 +119,6 @@ according to screen size*/
 
 }
 
-.grid3-text {
-
-}
 
 .grid3-image {
     height: 20%;
@@ -196,15 +192,15 @@ according to screen size*/
     width: 33%.3;
 }
 
+.top-left{
+    display:flex; 
+    height: 50%; 
+}
+
 .right-box{
     display:flex; 
     flex-direction: column; 
     width: 33.3%;
-}
-
-.top-left{
-    display:flex; 
-    height: 50%; 
 }
 
 .bottom-right{
@@ -233,6 +229,13 @@ height: 50%;
     height: 100%; 
 }
 
+.small-image-right{
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover; 
+    object-position: center;
+}
+
 .row-image{
     height: 100%; 
 }
@@ -255,13 +258,19 @@ height: 50%;
 }
 
 .flex2 span {
-    color: rgb(224, 223, 223)
+    color: rgb(224, 223, 223);
+    font-size: 22px;
 }
 
 .dots {
     display: flex;
     justify-content: center;
     padding-top: 90px;
+}
+
+.small-image-wrapper-right{
+    overflow: hidden;
+
 }
 
 .dot_filled {
@@ -313,6 +322,7 @@ span {
     justify-content: center;
     align-items: center;
     background-color: black;
+    height: 200px;
 }
 
 .CTA {
@@ -329,11 +339,11 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 470px;
 /*     padding-top: 115px;
     padding-bottom: 140px;
     padding-left: 270px;
     padding-right: 240px; */
-    background-color: rgb(241, 241, 241);
 }
 
 .flex-newsletter {
@@ -341,8 +351,44 @@ span {
 }
 
 .flex-newsletter input {
-    color: rgb(224, 223, 223);
+    font-style: italic;
     border-style: solid;
+    border-width: 1px;
     border-color: rgb(224, 223, 223);
+    background-color: white;
+    height: 65px;
+    width: 360px;
+    padding-left: 30px;
+}
+
+.flex-newsletter button {
+    color: white;
+    background-color: rgba(59, 167, 59, 0.822);
+    border-style: none;
+    height: 65px;
+    width: 120px;
+    font-size: 20px;
+}
+
+footer {
     background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: rgb(117, 115, 115);
+}
+
+.adress {
+    color: rgb(117, 115, 115);   
+}
+
+.social {
+    text-align: center;
+}
+
+.social img {
+    margin: 4px;
 }
