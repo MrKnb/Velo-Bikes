@@ -102,6 +102,7 @@ p {
     justify-content: center;
 }
 
+/*Didn't know how to make this one*/
 .divider {}
 
 
@@ -291,18 +292,6 @@ height: 50%;
     color: rgb(117, 115, 115);
     margin-right: 8px;
 }
-
-.grid-container2 {}
-
-.grid_1 {}
-
-.grid_2 {}
-
-.grid_3 {}
-
-.grid_4 {}
-
-.grid_5 {}
 
 .grid_5 p {
     color: white;
